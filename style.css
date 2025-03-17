@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 .title{
@@ -289,7 +289,6 @@
     width: 50%;
     display: flex; 
     margin-left: 45%;
-    /* margin-top: 18rem; */
     flex-wrap: wrap;
 
 }  
@@ -322,7 +321,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  
+    padding: 30px 30px;
 }
 svg{
     height: 150px;
@@ -559,6 +558,17 @@ svg circle:nth-child(1){
     } 
         
 }
+
+@media screen and (max-width: 655px){
+    .TTT div{
+        padding: 0 10px 25px 20px;
+    }
+   .s4{
+    justify-content: center;
+    align-items: center;
+   }
+    
+}
 @media screen and (max-width: 560px){
     .DIV4{
         margin-top: 40%;
@@ -697,8 +707,13 @@ svg circle:nth-child(1){
 @media screen and (max-width: 400px){
     .sec2{
      height: 100vh;
+     padding-left:  10px;
+     font-size: 8px;
     }
-         
+     .ic1{
+        width: 50px;
+        height: 50px;
+     }    
  }
 
 @media screen and (max-width: 380px){
